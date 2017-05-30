@@ -25,7 +25,7 @@ How to run:
 3. Change directory to the folder ...\target
 4. run the following:
     java -jar customerreview-0.0.1-SNAPSHOT.jar
-5. wait for a min till you see "Started HomeDepotTestApplication in DD.DDD seconds"
+5. wait for a min till you see "Started CustomerReviewTestApplication in DD.DDD seconds"
 6. Open browser and go to localhost:8080
     You should see the simple UI with few fields
     

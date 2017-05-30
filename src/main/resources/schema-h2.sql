@@ -1,5 +1,3 @@
---CREATE DATABASE IF NOT EXISTS homedepot_test ;
---USE homedepot_test ;
 DROP ALL OBJECTS;
 
 --
