@@ -6,16 +6,14 @@ Explanantions:
 
 - There are two custom annotations. One for curse words, and another one cross-field validation, to make sure that ratingFrom is less than ratingTo. All other annotations (for rating be greater that 0 ...) are standard.
 
-- Report for product total numbers of customer reviews whose ratings are within a given range (inclusive) is done using HQL query. see 
-
-Class: ...\src\main\java\de\hybris\platform\customerreview\dao\impl\DefaultCustomerReviewDao.java;  
-The metog: public List<ReviewCountReport> getReviewCountReport(Integer ratingFrom, Integer ratingTo)
+- Report for product total numbers of customer reviews whose ratings are within a given range (inclusive) is done using HQL query. see Class: ...\src\main\java\de\hybris\platform\customerreview\dao\impl\DefaultCustomerReviewDao.java; The metog: public List<ReviewCountReport> getReviewCountReport(Integer ratingFrom, Integer ratingTo)
 
 ------
 
 NOTE:
 You can import project to the Eclipse it's a maven project do File->Import->Existing Maven Project ->folow the instructions
-You can build the project from SHELL. You will need Maven and Java 8 to be installed. Do "mvn clean install" in folder with  pom.xml file
+
+Alternatively, you can build the project from SHELL. You will need Maven and Java 8 to be installed. Do "mvn clean install" in folder with  pom.xml file (.../src)
 
 ------
 How to run:
