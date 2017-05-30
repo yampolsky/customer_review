@@ -11,6 +11,7 @@ Explanantions:
 ------
 
 NOTE:
+
 You can import project to the Eclipse it's a maven project do File->Import->Existing Maven Project ->folow the instructions
 
 Alternatively, you can build the project from SHELL. You will need Maven and Java 8 to be installed. Do "mvn clean install" in folder with  pom.xml file (.../src)
