@@ -1,0 +1,37 @@
+<html>
+    <body>
+        <form action="#" th:action="@{/}" th:object="${commentForm}" method="post">
+            <table>
+                <tr>
+                    <td>Customer Name:</td>
+                    <td><input type="text" th:field="*{customer}" /></td>
+                    <td th:if="${#fields.hasErrors('customer')}" th:errors="*{customer}">Customer Name Error</td>
+                </tr>
+                <tr>
+                    <td>Product:</td>
+                    <td>
+	                    <select th:field="*{product}" >
+	                         <option th:each="dropDownItem : ${products}" 
+	                         	     th:value="${dropDownItem.id}"
+                                     th:text="${dropDownItem.description}"/>
+	                    </select>
+                    </td>
+                    <td th:if="${#fields.hasErrors('product')}" th:errors="*{product}">Product Error</td>
+                </tr>
+                <tr>
+                    <td>Rating:</td>
+                    <td><input type="text" th:field="*{rating}" /></td>
+                    <td th:if="${#fields.hasErrors('rating')}" th:errors="*{rating}">Rating Error</td>
+                </tr>
+                <tr>
+                    <td>Comment:</td>
+                    <td><input type="text" th:field="*{comment}" /></td>
+                    <td th:if="${#fields.hasErrors('comment')}" th:errors="*{comment}">Comment Error</td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Submit</button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
