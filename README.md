@@ -42,7 +42,7 @@ http://localhost:8080/hd/comment : to see comments
 http://localhost:8080/hd/customer : to see customers and their comments
 
 http://localhost:8080/h2-console : to see DB console, 
-                                NOTE: USE the following JDBS URL: "jdbc:h2:mem:TEST;DB_CLOSE_DELAY=-1;MODE=Oracle"
+                                NOTE: USE the following JDBC URL: "jdbc:h2:mem:TEST;DB_CLOSE_DELAY=-1;MODE=Oracle"
                                 password is empty
 
 http://localhost:8080/hd/count?from=1&to=6 : to get the report of product’s total number of customer reviews whose ratings are within a given range (inclusive). 'from' for ratingFrom, 'to' is for ratingTo
