@@ -16,9 +16,13 @@ How to run:
 How to see results URLs:
 
 http://localhost:8080 : to add comment/user (check validation)
+
 http://localhost:8080/hd/words : to see list of words prohibited in comment
+
 http://localhost:8080/hd/comment : to see comments
+
 http://localhost:8080/hd/customer : to see customers and their comments
+
 http://localhost:8080/h2-console : to see DB console, 
                                 NOTE: USE the following JDBS URL: "jdbc:h2:mem:TEST;DB_CLOSE_DELAY=-1;MODE=Oracle"
                                 password is empty
